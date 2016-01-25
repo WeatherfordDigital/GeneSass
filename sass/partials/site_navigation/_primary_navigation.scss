@@ -1,0 +1,29 @@
+/* ## Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+	background-color: $oil;
+	.genesis-nav-menu {
+		a:hover,
+		a:focus,
+		.current-menu-item > a {
+			color: $white;
+			text-decoration: underline;
+		}
+		.sub-menu {
+			a:hover,
+			a:focus,
+			.current-menu-item > a {
+				color: $primary-color;
+				text-decoration: underline;
+			}
+			a {
+				color: $oil;
+			}
+		}
+		a {
+			color: $iron;
+			text-decoration: none;
+		}
+	}
+}

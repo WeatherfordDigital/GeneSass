@@ -1,0 +1,195 @@
+/* # Genesis Sample Child Theme ( GeneSass )
+Theme Name: GeneSass
+Description: This is a GeneSass sample theme created for the Genesis Framework.
+Author: Ron Willemse
+Author URI: https://www.ronwillemse.nl/
+Template: genesis
+Template Version: 2.2.2
+Tags: sass, black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* # Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+	- Screen Reader Text
+- Structure and Layout
+	- Site Containers
+	- Column Widths and Positions
+	- Column Classes
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Jetpack
+- Site Header
+	- Title Area
+	- Widget Area
+- Skip Links
+- Site Navigation
+	- Accessible Menu
+	- Site Header Navigation
+	- Primary Navigation
+	- Secondary Navigation
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+	- Comments
+- Sidebars
+- Footer Widgets
+- Site Footer
+- Media Queries
+	- Retina Display
+	- Max-width: 1200px
+	- Max-width: 960px
+	- Max-width: 800px
+- Print Styles
+*/
+
+@import "partials/settings.scss";
+
+/* # HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/html5_reset/baseline_normalize";
+
+@import "partials/html5_reset/box_sizing";
+
+@import "partials/html5_reset/float_clearing";
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/defaults/typographical_elements";
+
+@import "partials/defaults/headings";
+
+@import "partials/defaults/objects";
+
+@import "partials/defaults/gallery";
+
+@import "partials/defaults/forms";
+
+@import "partials/defaults/tables";
+
+@import "partials/defaults/screen_reader_text";
+
+/* # Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/structure_and_layout/site_containers";
+
+@import "partials/structure_and_layout/column_widths_and_positions";
+
+@import "partials/structure_and_layout/column_classes";
+
+/* # Common Classes
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/common_classes/avatar";
+
+@import "partials/common_classes/genesis";
+
+@import "partials/common_classes/search_form";
+
+@import "partials/common_classes/titles";
+
+@import "partials/common_classes/wordpress";
+
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/widgets/widgets";
+
+@import "partials/widgets/featured_content";
+
+/* # Plugins
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/plugins/genesis_enews_extended";
+
+@import "partials/plugins/jetpack";
+
+/* # Site Header
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/site_header/site_header";
+
+@import "partials/site_header/title_area";
+
+@import "partials/site_header/widget_area";
+
+/* # Skip Links
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/skip_links/skip_links";
+
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/site_navigation/site_navigation";
+
+@import "partials/site_navigation/accessible_menu";
+
+@import "partials/site_navigation/site_header_navigation";
+
+@import "partials/site_navigation/primary_navigation";
+
+@import "partials/site_navigation/secondary_navigation";
+
+/* # Content Area
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/content_area/entries";
+
+@import "partials/content_area/entry_meta";
+
+@import "partials/content_area/pagination";
+
+@import "partials/content_area/comments";
+
+/* # Sidebars
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/sidebars/sidebars";
+
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/footer_widgets/footer_widgets";
+
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/site_footer/site_footer";
+
+/* # Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/media_queries/max_width_1200";
+
+@import "partials/media_queries/max_width_960";
+
+@import "partials/media_queries/max_width_800";
+
+/* # Print Styles
+---------------------------------------------------------------------------------------------------- */
+
+@import "partials/print_styles/print";
