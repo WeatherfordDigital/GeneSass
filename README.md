@@ -1,6 +1,6 @@
 # Genesis Sample Child Theme ( GeneSass )
 
-Github project link: 
+Github project link: https://github.com/RonWillemse/GeneSass.git
 
 ## Installation Instructions
 
@@ -11,4 +11,4 @@ Github project link:
 
 ## Sass Instructions
 
-You are free to use any compiler like Compass, Grunt or Sass. As an example I put a Compass config file in the repo. More about Compass here.
+You are free to use any compiler like Compass, Grunt or Sass. As an example I put a Compass config file in the repo.
