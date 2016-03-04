@@ -1,12 +1,13 @@
-/* ## Site Header Navigation
---------------------------------------------- */
-
+// ## Site Header Navigation
+// ---------------------------------------------
 .site-header .sub-menu {
-	border-top: 1px solid $smoke;
-	.sub-menu {
-		margin-top: -56px;
+  border-top: 1px solid $smoke;
+
+  .sub-menu {
+    margin-top: -56px;
 	}
-	.genesis-nav-menu li li {
-		margin-left: 0;
+
+  .genesis-nav-menu li li {
+    margin-left: 0;
 	}
 }
