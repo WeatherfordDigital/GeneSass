@@ -1,25 +1,26 @@
-// ## Entry Meta
-// ---------------------------------------------
-.entry-meta {
-  @include font-size(16px);
-  margin-bottom: 0;
+/* ## Entry Meta
+--------------------------------------------- */
+
+p.entry-meta {
+	@include font-size(16px);
+	margin-bottom: 0;
 }
 
 .entry-header .entry-meta {
-  margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 
 .entry-footer .entry-meta {
-  border-top: 2px solid $white-smoke;
-  padding-top: 24px;
+	border-top: 2px solid $white-smoke;
+	padding-top: 24px;
 }
 
 .entry-categories,
 .entry-tags {
-  display: block;
+	display: block;
 }
 
 .entry-comments-link::before {
-  content: '\2014';
-  margin: 0 6px 0 2px;
+	content: "\2014";
+	margin: 0 6px 0 2px;
 }

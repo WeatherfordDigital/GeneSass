@@ -1,11 +1,11 @@
 @media only screen and (max-width: 960px) {
 
-  .site-inner,
+	.site-inner,
 	.wrap {
-    max-width: 800px;
+		max-width: 800px;
 	}
 
-  .content,
+	.content,
 	.content-sidebar-sidebar .content,
 	.content-sidebar-sidebar .content-sidebar-wrap,
 	.sidebar-content-sidebar .content,
@@ -19,47 +19,47 @@
 	.sidebar-sidebar-content .content-sidebar-wrap,
 	.site-header .widget-area,
 	.title-area {
-    width: 100%;
+		width: 100%;
 	}
 
-  .site-header .wrap {
-    padding: 20px 5%;
+	.site-header .wrap {
+		padding: 20px 5%;
 	}
 
-  .header-image .site-title > a {
-    background-position: center top;
+	.header-image .site-title > a {
+		background-position: center top;
 	}
 
-  .genesis-nav-menu li,
-	.site-header .genesis-nav-menu,
+	.genesis-nav-menu li,
+	.site-header ul.genesis-nav-menu,
 	.site-header .search-form {
-    float: none;
+		float: none;
 	}
 
-  .genesis-nav-menu,
+	.genesis-nav-menu,
 	.site-description,
 	.site-header .title-area,
 	.site-header .search-form,
 	.site-title {
-    text-align: center;
+		text-align: center;
 	}
 
-  .genesis-nav-menu a,
+	.genesis-nav-menu a,
 	.genesis-nav-menu > .first > a,
 	.genesis-nav-menu > .last > a {
-    padding: 20px 16px;
+		padding: 20px 16px;
 	}
 
-  .site-header .search-form {
-    margin: 16px auto;
+	.site-header .search-form {
+		margin: 16px auto;
 	}
 
-  .genesis-nav-menu .right {
-    display: none;
+	.genesis-nav-menu li.right {
+		display: none;
 	}
 
-  .footer-widgets-1 {
-    margin-right: 0;
+	.footer-widgets-1 {
+		margin-right: 0;
 	}
 
 }

@@ -1,15 +1,14 @@
 .genesis-skip-link {
-  margin: 0;
-
-  li {
-    height: 0;
-    list-style: none;
-    width: 0;
-  }
+	margin: 0;
+	li {
+		height: 0;
+		width: 0;
+		list-style: none;
+	}
 }
 
-// Display outline on focus
+/* Display outline on focus */
 :focus {
-  color: $oil;
-  outline: $iron solid 1px;
+	color: $oil;
+	outline: $iron solid 1px;
 }

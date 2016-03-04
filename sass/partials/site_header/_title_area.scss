@@ -1,46 +1,45 @@
-// ## Title Area
-// ---------------------------------------------
+/* ## Title Area
+--------------------------------------------- */
+
 .title-area {
-  float: left;
-  padding: 10px 0;
-  width: 360px;
+	float: left;
+	padding: 10px 0;
+	width: 360px;
 }
 
 .header-full-width .title-area {
-  width: 100%;
+	width: 100%;
 }
 
 .site-title {
-  @include font-size(32px);
-  font-weight: 400;
-  line-height: 1.2;
-  margin-bottom: 0;
-
-  a,
+	@include font-size(32px);
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: 0;
+	a,
 	a:hover,
 	a:focus {
-    color: $oil;
+		color: $oil;
 	}
 }
 
 .header-image {
-  .site-title > a {
-    background: url('images/logo.png') no-repeat left;
-    float: left;
-    min-height: 60px;
-    width: 100%;
+	.site-title > a {
+		background: url(images/logo.png) no-repeat left;
+		float: left;
+		min-height: 60px;
+		width: 100%;
 	}
-
-  .site-description,
+	.site-description,
 	.site-title {
-    display: block;
-    text-indent: -9999px;
+		display: block;
+		text-indent: -9999px;
 	}
 }
 
 .site-description {
-  @include font-size(16px);
-  font-weight: 300;
-  line-height: 1.5;
-  margin-bottom: 0;
+	@include font-size(16px);
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 0;
 }

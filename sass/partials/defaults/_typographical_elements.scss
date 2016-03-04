@@ -1,91 +1,91 @@
-// ## Typographical Elements
-// ---------------------------------------------
+/* ## Typographical Elements
+--------------------------------------------- */
+
 html {
-  font-size: $rem-base; // 10px browser default
+    font-size: $rem-base; /* 10px browser default */
+}
+
+/* Chrome fix */
+body > div {
+	@include font-size(18px);
 }
 
 body {
-  @include background-color($primary-background, $oil);
-  @include font-size(18px);
-  font: {
-    family: $font-sans-serif;
-    weight: 300;
-  }
-  line-height: $line-height;
-  margin: 0;
-
-  > div {
-    @include font-size(18px);
-  }
+	@include background-color($primary-background, $oil);
+	font: {
+		family: $font-sans-serif;
+		weight: 300;
+	}
+	@include font-size(18px);
+	line-height: $line-height;
+	margin: 0;
 }
 
 a,
 button,
-:focus,
-[type=button],
-[type=reset],
-[type=submit],
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
 .button,
 .gallery img {
-  @include transition(all .1s ease-in-out);
+	@include transition(all 0.1s ease-in-out);
 }
 
 a {
-  color: $primary-color;
-  text-decoration: underline;
-
-  &:hover,
-  &:focus {
-    color: $oil;
-    text-decoration: none;
-  }
+	color: $primary-color;
+	text-decoration: underline;
+	&:hover, &:focus {
+		color: $oil;
+		text-decoration: none;
+	}
 }
 
 p {
-  margin: 0 0 28px;
-  padding: 0;
+	margin: 0 0 28px;
+	padding: 0;
 }
 
-ol,
+ol, 
 ul {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 li {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 hr {
-  border: 0;
-  border-collapse: collapse;
-  border-top: 1px solid $gainsboro;
-  clear: both;
-  margin: 1em 0;
+	border: 0;
+	border-collapse: collapse;
+	border-top: 1px solid $gainsboro;
+	clear: both;
+	margin: 1em 0;
 }
 
 b,
 strong {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 blockquote,
 cite,
 em,
 i {
-  font-style: italic;
+	font-style: italic;
 }
 
 blockquote {
-  margin: 40px;
-
-  &::before {
-    @include font-size(30px);
-    content: '\201C';
-    display: block;
-    height: 0;
-    left: -20px;
-    position: relative;
-    top: -10px;
+	margin: 40px;
+	&::before {
+		content: "\201C";
+		display: block;
+		@include font-size(30px);
+		height: 0;
+		left: -20px;
+		position: relative;
+		top: -10px;
 	}
 }

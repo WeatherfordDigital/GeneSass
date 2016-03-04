@@ -1,65 +1,72 @@
-// ## WordPress
-// ---------------------------------------------
+/* ## WordPress
+--------------------------------------------- */
+
 a {
-
-  &.aligncenter img {
-    display: block;
-    margin: 0 auto;
-  }
-
-  &.alignnone {
-    display: inline-block;
+	&.aligncenter img {
+		display: block;
+		margin: 0 auto;
 	}
-
-  &.alignleft,
-  &.alignnone,
-  &.alignright {
-    max-width: 100%;
-  }
+	&.alignnone {
+		display: inline-block;
+	}
 }
 
 .alignleft {
-  float: left;
-  text-align: left;
+	float: left;
+	text-align: left;
 }
 
 .alignright {
-  float: right;
-  text-align: right;
+	float: right;
+	text-align: right;
 }
 
-.centered,
+a {
+	&.alignleft,
+	&.alignnone,
+	&.alignright {
+		max-width: 100%;
+	}
+}
+
+img.centered,
 .aligncenter {
-  display: block;
-  margin: 0 auto 24px;
+	display: block;
+	margin: 0 auto 24px;
 }
 
+img.alignnone,
 .alignnone {
-  margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
-.alignleft,
+a.alignleft,
+img.alignleft,
 .wp-caption.alignleft {
-  margin: 0 24px 24px 0;
+	margin: 0 24px 24px 0;
 }
 
-.alignright,
+a.alignright,
+img.alignright,
 .wp-caption.alignright {
-  margin: 0 0 24px 24px;
+	margin: 0 0 24px 24px;
 }
 
 .wp-caption-text {
-  @include font-size(14px);
-  font-weight: 700;
-  text-align: center;
+	@include font-size(14px);
+	font-weight: 700;
+	text-align: center;
 }
 
-.entry-content .wp-caption-text {
-  margin-bottom: 0;
+.entry-content p.wp-caption-text {
+	margin-bottom: 0;
+}
+
+.sticky {
 }
 
 .entry-content .wp-audio-shortcode,
 .entry-content .wp-playlist,
 .entry-content .wp-video {
-  margin: 0 0 28px;
+	margin: 0 0 28px;
 }

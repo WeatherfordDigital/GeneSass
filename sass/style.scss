@@ -63,133 +63,133 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 - Print Styles
 */
 
-@import 'partials/settings';
+@import "partials/settings.scss";
 
 /* # HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/html5_reset/baseline_normalize';
+@import "partials/html5_reset/baseline_normalize";
 
-@import 'partials/html5_reset/box_sizing';
+@import "partials/html5_reset/box_sizing";
 
-@import 'partials/html5_reset/float_clearing';
+@import "partials/html5_reset/float_clearing";
 
 /* # Defaults
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/defaults/typographical_elements';
+@import "partials/defaults/typographical_elements";
 
-@import 'partials/defaults/headings';
+@import "partials/defaults/headings";
 
-@import 'partials/defaults/objects';
+@import "partials/defaults/objects";
 
-@import 'partials/defaults/gallery';
+@import "partials/defaults/gallery";
 
-@import 'partials/defaults/forms';
+@import "partials/defaults/forms";
 
-@import 'partials/defaults/tables';
+@import "partials/defaults/tables";
 
-@import 'partials/defaults/screen_reader_text';
+@import "partials/defaults/screen_reader_text";
 
 /* # Structure and Layout
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/structure_and_layout/site_containers';
+@import "partials/structure_and_layout/site_containers";
 
-@import 'partials/structure_and_layout/column_widths_and_positions';
+@import "partials/structure_and_layout/column_widths_and_positions";
 
-@import 'partials/structure_and_layout/column_classes';
+@import "partials/structure_and_layout/column_classes";
 
 /* # Common Classes
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/common_classes/avatar';
+@import "partials/common_classes/avatar";
 
-@import 'partials/common_classes/genesis';
+@import "partials/common_classes/genesis";
 
-@import 'partials/common_classes/search_form';
+@import "partials/common_classes/search_form";
 
-@import 'partials/common_classes/titles';
+@import "partials/common_classes/titles";
 
-@import 'partials/common_classes/wordpress';
+@import "partials/common_classes/wordpress";
 
 /* # Widgets
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/widgets/widgets';
+@import "partials/widgets/widgets";
 
-@import 'partials/widgets/featured_content';
+@import "partials/widgets/featured_content";
 
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/plugins/genesis_enews_extended';
+@import "partials/plugins/genesis_enews_extended";
 
-@import 'partials/plugins/jetpack';
+@import "partials/plugins/jetpack";
 
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/site_header/site_header';
+@import "partials/site_header/site_header";
 
-@import 'partials/site_header/title_area';
+@import "partials/site_header/title_area";
 
-@import 'partials/site_header/widget_area';
+@import "partials/site_header/widget_area";
 
 /* # Skip Links
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/skip_links/skip_links';
+@import "partials/skip_links/skip_links";
 
 /* # Site Navigation
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/site_navigation/site_navigation';
+@import "partials/site_navigation/site_navigation";
 
-@import 'partials/site_navigation/accessible_menu';
+@import "partials/site_navigation/accessible_menu";
 
-@import 'partials/site_navigation/site_header_navigation';
+@import "partials/site_navigation/site_header_navigation";
 
-@import 'partials/site_navigation/primary_navigation';
+@import "partials/site_navigation/primary_navigation";
 
-@import 'partials/site_navigation/secondary_navigation';
+@import "partials/site_navigation/secondary_navigation";
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/content_area/entries';
+@import "partials/content_area/entries";
 
-@import 'partials/content_area/entry_meta';
+@import "partials/content_area/entry_meta";
 
-@import 'partials/content_area/pagination';
+@import "partials/content_area/pagination";
 
-@import 'partials/content_area/comments';
+@import "partials/content_area/comments";
 
 /* # Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/sidebars/sidebars';
+@import "partials/sidebars/sidebars";
 
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/footer_widgets/footer_widgets';
+@import "partials/footer_widgets/footer_widgets";
 
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/site_footer/site_footer';
+@import "partials/site_footer/site_footer";
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/media_queries/max_width_1200';
+@import "partials/media_queries/max_width_1200";
 
-@import 'partials/media_queries/max_width_960';
+@import "partials/media_queries/max_width_960";
 
-@import 'partials/media_queries/max_width_800';
+@import "partials/media_queries/max_width_800";
 
 /* # Print Styles
 ---------------------------------------------------------------------------------------------------- */
 
-@import 'partials/print_styles/print';
+@import "partials/print_styles/print";
