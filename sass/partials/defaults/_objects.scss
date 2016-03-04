@@ -1,22 +1,22 @@
-/* ## Objects
---------------------------------------------- */
-
+// ## Objects
+// ---------------------------------------------
 embed,
 iframe,
 img,
 object,
 video,
 .wp-caption {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 img {
-	height: auto;
+  height: auto;
 }
 
 .featured-content,
 .gallery {
-	img {
-		width: auto;
+
+  img {
+    width: auto;
 	}
 }

@@ -11,4 +11,6 @@ Github project link: https://github.com/RonWillemse/GeneSass.git
 
 ## Sass Instructions
 
-You are free to use any compiler like Compass, Grunt or Sass. As an example I put a Compass config file in the repo.
+You are free to use any compiler like Compass, Gulp, Grunt or Sass. As an example I put a Compass config file in the repo.
+
+The SCSS files of the GeneSass Theme are linted and rewritten in proper scss.
